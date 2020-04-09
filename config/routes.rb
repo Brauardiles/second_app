@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   get  "pages/about_us"
   get  "pages/test"
   get  "pages/index"
-  get "pages/login"
-
+  
   root "pages#index"
 end
